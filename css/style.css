@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.logo span, .sac{
+    font-family: "Sacramento", "cursive";
+}
+
+.animation{
+    left: 0 !important;
+}
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url("../images/overlay.png") !important;
+}
+
+::selection{
+    background-color: #DEC700;
+    color: black;
+}
